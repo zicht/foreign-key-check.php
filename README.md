@@ -10,7 +10,7 @@ In that case, this script is handy to figure out which values are invalid. This 
 # Usage #
 
 ```
-php foreign-key-check.php my_database`
+php foreign-key-check.php my_database
 ```
 Will check all foreign keys in the `my_database` schema, and output queries to either:
 
