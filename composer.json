@@ -1,0 +1,20 @@
+{
+  "name": "zicht/sql-util-foreign-key-check",
+  "require": {
+    "php": ">=5.3"
+  },
+  "authors": [
+    {
+      "name": "Gerard van Helden",
+      "email": "gerard@zicht.nl"
+    }
+  ],
+  "autoload": {
+    "psr-0": {
+      "": [
+        "src/",
+        "tests/"
+      ]
+    }
+  }
+}
