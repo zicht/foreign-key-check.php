@@ -1,7 +1,7 @@
 {
   "name": "zicht/sql-util-foreign-key-check",
   "require": {
-    "php": ">=5.3"
+    "php": ">=5.5"
   },
   "authors": [
     {
