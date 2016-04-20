@@ -3,7 +3,7 @@
   "require": {
     "php": ">=5.5"
   },
-  "bin": ["bin/foreign-key-check.php"],
+  "bin": ["bin/foreign-key-check"],
   "authors": [
     {
       "name": "Gerard van Helden",

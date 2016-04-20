@@ -6,6 +6,12 @@
 
 use Zicht\Sql\ForeignKeyCheck\App;
 
-require_once __DIR__ . '/../vendor/autoload.php';
+$autoloaders = [__DIR__ . '/../vendor/autoload.php', __DIR__ . '/../../../autoload.php'];
+
+foreach ($autoloaders as $autoloader) {
+    if (is_readable($autoloader)) {
+        require_once $autoloader;
+    }
+}
 
 (new App())->run($_SERVER['argv']);
