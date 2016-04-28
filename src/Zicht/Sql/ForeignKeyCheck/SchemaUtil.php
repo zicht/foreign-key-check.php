@@ -71,7 +71,7 @@ class SchemaUtil
                 : ''
         );
 
-        call_user_func($this->logger, 1, "Fetching all foreign key relations \n%s\n", $foreignKeyRelationsQuery);
+        call_user_func($this->logger, 2, "Fetching all foreign key relations \n%s\n", $foreignKeyRelationsQuery);
 
         return $this->connection->query($foreignKeyRelationsQuery)->fetchAll(\PDO::FETCH_ASSOC);
     }
